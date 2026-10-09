@@ -1,0 +1,20 @@
+# 生成的站点（可能含个人 API Key，绝不入库）
+/my-bookshelf/
+/bookshelf/
+site/
+dist/
+*.local.html
+
+# 本地配置（如自己写了带 Key 的配置）
+config.local.*
+*.local.json
+
+# 常见噪声
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
